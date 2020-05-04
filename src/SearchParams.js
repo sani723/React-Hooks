@@ -3,7 +3,7 @@ import pet, { ANIMALS } from "@frontendmasters/pet";
 import useDropdown from "./useDropdown";
 import Results from "./Results";
 import regeneratorRuntime from "regenerator-runtime";
-import ThemeContext from './ThemeContext';
+import ThemeContext from "./ThemeContext";
 
 const SearchParams = () => {
   const [location, setLocation] = useState("Seattle, WA");
@@ -55,7 +55,11 @@ const SearchParams = () => {
           <BreedDropdown />
           <label htmlFor="theme">
             Theme
-            <select value={theme} onChange={e => setTheme(e.target.value)} onBlur={e => setTheme(e.target.value)}>
+            <select
+              value={theme}
+              onChange={(e) => setTheme(e.target.value)}
+              onBlur={(e) => setTheme(e.target.value)}
+            >
               <option value="peru">Peru</option>
               <option value="darkblue">Dark Blue</option>
               <option value="mediumorchid">Medium Orchid</option>
