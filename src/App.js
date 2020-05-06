@@ -5,6 +5,7 @@ import Posts from "./Posts";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 import ThemeContext from "./ThemeContext";
+import Hooks from "./Hooks";
 
 const App = () => {
   const themeHook = useState("orange");
