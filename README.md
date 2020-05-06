@@ -21,4 +21,10 @@
 10. Error Boundaries
 11. Context
 12. Portals and Refs
+13. Hooks in Depth
+14. Emotion
+15. Code Splitting
+16. Server Side Rendering
+17. Redux
+18. Testing
 
