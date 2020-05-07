@@ -6,7 +6,7 @@ import SearchParams from "./SearchParams";
 import Details from "./Details";
 import ThemeContext from "./ThemeContext";
 import Hooks from "./Hooks";
-import NavBar from './NavBar';
+import NavBar from "./NavBar";
 
 const App = () => {
   const themeHook = useState("orange");
