@@ -1,5 +1,4 @@
 import React, { useState, lazy, Suspense } from "react";
-import { render } from "react-dom";
 import { Router } from "@reach/router";
 import Posts from "./Posts";
 import ThemeContext from "./ThemeContext";
@@ -29,4 +28,5 @@ const App = () => {
   );
 };
 
-render(<App />, document.getElementById("root"));
+export default App;
+// render(<App />, document.getElementById("root"));
